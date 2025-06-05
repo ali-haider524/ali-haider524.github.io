@@ -77,7 +77,7 @@
         <h2 class="text-3xl sm:text-4xl font-bold text-center text-gray-200 mb-8 sm:mb-10">Contact Me</h2>
         <div class="card rounded-lg shadow-xl p-6 sm:p-8 text-center">
             <p class="text-gray-400 text-sm sm:text-base mb-6">Interested in collaborating or exploring opportunities? Get in touch!</p>
-           <form id="contact-form" class="max-w-md mx-auto">
+           <form  action="https://formspree.io/f/mkgbgkro" method="POST" id="contact-form" class="max-w-md mx-auto">
 
                 <div class="mb-4">
                     <label for="name" class="block text-gray-400 text-sm mb-2">Name</label>
@@ -101,7 +101,7 @@
                 <a href="#" target="_blank" class="social-link text-gray-400 hover:text-amber-800 text-lg sm:text-xl" title="Facebook" aria-label="Facebook Profile"><i class="fab fa-facebook"></i></a>
                 <a href="https://www.instagram.com/al.ihaider524/" target="_blank" class="social-link text-gray-400 hover:text-amber-800 text-lg sm:text-xl" title="Instagram" aria-label="Instagram Profile"><i class="fab fa-instagram"></i></a>
             </div>
-            <a href="{{ url_for('static', filename='assets/MyResume.pdf') }}" download class="btn mt-6 inline-block">Download Resume</a>
+            <a href="assets/MyResume.pdf" download class="btn mt-6 inline-block">Download Resume</a>
         </div>
     </section>
 
